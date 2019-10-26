@@ -10,5 +10,6 @@
 <br>
 2.2- Incluir la siguiente linea de app > config > aliases > 'Form' => Collective\Html\FormFacade::class,
 <br>
+3- Para instalar en nuevo directorio, clonar repositorio > crear archivo .env > correr migraciones > ir a la URL users
 
 
