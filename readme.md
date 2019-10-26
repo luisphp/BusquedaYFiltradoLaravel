@@ -4,6 +4,11 @@
 
 1- Instalar Laravel 6 o clonar repositorio
 <br>
-2- instalar laravel collective con el comando: "composer require laravelcollective/html"
+2- Instalar laravel collective con el comando: "composer require laravelcollective/html"
+<br>
+2.1- Incluir la siguiente linea en app > config > provider > "Collective\Html\HtmlServiceProvider::class",
+<br>
+2.2- Incluir la siguiente linea de app > config > aliases > 'Form' => Collective\Html\FormFacade::class,
+<br>
 
 
